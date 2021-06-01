@@ -7,7 +7,7 @@
   //FUNCIONES
   var iniciarSesionConClick= function(){
     if(email.value!="" && password.value!=""){
-      alert("Inición de sesión exitosa");
+      alert("Inicio de sesión exitoso");
       }else if(email.value=="" && password.value!=""){
         email.style.cssText="border: 2px solid red;";
       }else if(email.value!="" && password.value==""){
